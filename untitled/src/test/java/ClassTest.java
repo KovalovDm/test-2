@@ -7,7 +7,13 @@ class ClassTest {
         Assertions.assertTrue((new int[3]).length == 0);
     }
 
+    @Test
     void t2() {
         Assertions.assertFalse(true);
+    }
+
+    @Test
+    void t3() {
+        Assertions.assertEquals(1, 1);
     }
 }
