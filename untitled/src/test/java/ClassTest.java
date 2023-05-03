@@ -8,6 +8,6 @@ class ClassTest {
     }
 
     void t2() {
-        Assertions.assertFalse(false);
+        Assertions.assertFalse(true);
     }
 }
